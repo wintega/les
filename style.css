@@ -1,0 +1,152 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table,td {
+    border: 5px solid white;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-weight: lighter;
+    width: 600px;
+    height: 15px;
+    padding: 5px;
+    }
+    th{
+        text-align: left;
+        background-color:#e0e0e0;
+        border: 3px solid white;
+        size: 600px;
+        padding: 5px;
+        font-weight: lighter;
+
+    }
+    ul{
+    font-size: 12px;"
+    }
+
+.my{
+        color: blueviolet;
+        font-size: 15px;
+        margin-right:10px;
+    }
+body{
+    background-color:#f8f9fa;;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color:white;
+    padding: 2px 0;
+}
+h1{
+    font-size: 24px;
+    margin-left: 50px;
+    font-weight: lighter;
+    
+}
+
+.img-ava {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    }
+.avatar{
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+}
+
+.sect-all{
+    background-color: white;
+    margin-top: -50px;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 40, 100, 0.12);
+}
+.grey{
+    color: #a29e9e;
+    font-size: 14px;
+}
+a{
+    color: #a29e9e;
+    font-size: 14px;
+    text-decoration: none;
+}
+.img-social{
+    vertical-align: middle;
+}
+.chance{
+
+    top: 0;
+    width: 100%;
+    height: 106px;
+    background: linear-gradient(87deg, #f5365c 0, #f56036 100%) !important;
+    margin-bottom: -100px;
+}
+.cont-font{
+    color: #a29e9e;
+    font-size: 14px; 
+    
+}
+
+.right-form{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.block-input{
+    padding: 25px;
+    font-size: 13px;
+    border-radius: 2px;
+    width: 700px;
+    background-color: rgba(0, 40, 100, 0.12);
+}
+.date{
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+li{
+    color: violet;
+    margin: 5px;
+
+}
+.input{
+    background-color: white;
+    padding: 5px;
+    border-radius: 2px;
+}
+.button{
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background: #55acee;
+    box-shadow: 2px 3px 0 #3C93D5;
+    transition: .3s;
+    cursor: pointer;
+}
+select
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none!important;
+    background:  url(https://www.svgrepo.com/show/295336/down-arrow-download.svg) no-repeat 96% 50%;
+    background-size: 25px;
+    background-color: #55acee;
+    border-radius: 2px;
+    border: 2px solid #55acee;
+    padding: 7px 15px;
+    color: #fff;
+    font-size:12px;
+    outline: none;
+    cursor: pointer;
+}
+
+ select::-ms-expand {
+      display: none;
+}
+

@@ -5,119 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-        table,td {
-        border: 5px solid white;
-        border-collapse: collapse;
-        font-size: 16px;
-        font-weight: lighter;
-        width: 600px;
-        height: 15px;
-        padding: 5px;
-        }
-        th{
-            text-align: left;
-            background-color:#e0e0e0;
-            border: 3px solid white;
-            size: 600px;
-            padding: 5px;
-            font-weight: lighter;
-
-        }
-        ul{
-        font-size: 12px;"
-        }
-        #my{
-            color: blueviolet;
-        }
-</style>
 
 
+<body>
+    <form action="send">
+        <div class="header">
+            <h1><span class="my">Вакансия:</span> Junior Frontend Developer</H1>
+         </div>
+        <div class="chance"></div>
 
-<body style="background-color:#f8f9fa;">
-    <h1 style="font-size: 24px; color: blueviolet;">Вакансия: Junior Frontend Developer</H1>
-    <img hspace="10" align="left" src="http://www.picshare.ru/uploads/191027/rT2RwaQhxZ.jpg" alt="Вася Пупкин">
-        <div ><span id="my"> Имя:</span> Гендик Руслан <br/>
-            <div><span id="my"> Опыт работы: </span>НЕТ</div>
-            <a href="https://github.com/wintega/les" >Ссылка на Github</a>
-        </div>
-<br><br><br><br><br>
-        <form  action="/action_page.php">
-            <div id="my" style="display: inline;"> Дата собеседования: </div>
-            <input type="date" name="bday">
-        </form>
+<section class="sect-all">
+    <div class="avatar">
+                        <img class="img-ava" hspace="10"  white-space="nowrap" src="http://levelp.ru/upload/iblock/baa/baad2685b2945b2abb136f5d0fd59ffb.png" alt="Вася Пупкин">
+                        <div>Гендик Руслан </div>
+                        <div class="grey">Без опыта работы</div><br>
+            <img class="img-social" src="https://cdn4.iconfinder.com/data/icons/43-social-media-line-icons/24/github-16.png" alt="github">
+            <a href="https://github.com/wintega/les">Github</a><br>
+
+            <img class="img-social" src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/11-16.png" alt="vkontakte">
+            <a href="https://vk.com/wintegaa">Vkontakte</a><br>
+
+            <img class="img-social" src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Instagram-16.png" alt="instagram">
+            <a href="https://www.instagram.com/ruslan_alutur/">Instagram</a><br>
 <br>
+        <div class="grey">Контактная информация:</div><br>
 
-        <div id="my">Уровень английского:</div>
-            <form style="display: inline; font-size: 12px;">
+            <img class="img-social" src="https://cdn3.iconfinder.com/data/icons/communication-1/100/phone_speaker-16.png" alt="phone">
+            <span class="cont-font">+7978 78-27-999</span><br><br>
+
+            <img class="img-social" src="https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/location-16.png" alt="location">
+            <a href="https://yandex.ru/maps/-/CGHrnILg">Санкт-Петербург<br>ул. Кременчугская, 13 к 2</a><br><br>
+
+            <img class="img-social" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-16.png" alt="mail">
+            <a href="mailto:2006at@mail.ru">2006at@mail.ru</a><br>
+        </div>
+    </div>
+
+
+    <div class="right-form">
+
+    <div class="block-input">
+            <label class="my" >Дата собеседования:</label>
+            <span class="date">20.11.2019 <img  src="https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/calendar-16.png" alt=""></span>
+    </div>
+         <br>
+    <div class="block-input">
+            <label class="my" > Уровень английского:</label>
+            <div style="display: inline; font-size: 12px;">
                 <input type="radio" name="gender" value="bad" > Плохо
                 <input type="radio" name="gender" value="medium"> Средне
                 <input type="radio" name="gender" value="good"> Хорошо
                 <input type="radio" name="gender" value="very-good" checked> Превосходно
-            </form>
-<br>
-<br>
-        <div id="my">Ключевые навыки:</div>
-        <ul>– HTML</ul>
-        <ul>– CSS/LESS</ul>
-        <ul>– JavaScript</ul>
+            </div>
+    </div>
+    <br>
+    <div class="block-input">
+        <div class="my">Ключевые навыки:</div>
+        <ul>
+            <li>HTML</li>
+            <li>CSS/LESS</li>
+            <li>JavaScript</li>
 
-        <form action="/action_page.php">
-            <ul>
-               <input type="text" name="firstname" value="PHP">
-               <input type="submit" value="Добавить в список">
-            </ul>
-        </form>
+            <div >
+                <li>
+                <span class="input" style="padding-right: 70px;">PHP</span>
+                <span class="button">Добавить в список</span>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <br>
 
-
-        <div style="display: inline ;" id="my">Каммуникабельность:  	
-            <select id="selectID" >
+    <div class="block-input">   
+        <div style="display: inline ;" class="my">Каммуникабельность:  	
+            <select >
                <option value=”GR”>Креативный</option>
                 <option value=”YE”>Исполнительный</option>
                 <option value=”BL”>Трудолюбивый</option>
             </select>
-        </div>       
-<br>
-<br>
+        </div> 
+    </div>      
+        <br>
 
+    <div class="block-input"> 
+        <div class="my">
+            Желаемая зарплата:  
+            <span class="input" style="padding-right: 70px;">от 50000 руб</span>
+        </div>
+    </div>
 
-        <form id="my">
-                Желаемая зарплата:  
-                <input type="text" name="zp">
-        </form>
-<br>
+        <br>
 
-        <div>
-            <form style="font-size: 12px;"><div id="my" style="font-size: 18px;">Подходит по критериям:</div> <br>
+        <div class="block-input">
+            <div style="font-size: 12px;"><div class="my" style="font-size: 18px;">Подходит по критериям:</div> <br>
                     <input  type="checkbox" name="vehicle1" value="Bike"> Знание английского
                     <input  type="checkbox" name="vehicle2" value="Bike"> Оклад
                     <input  type="checkbox" name="vehicle3" value="Bike"> Навыки
                     <input  type="checkbox" name="vehicle4" value="Car"> Сразу видно, что свой человек
-            </form>
+            </div>
         </div>
-<br>
-<div id="my">Образование, курсы и т.д.</div>
+        <br>
+    <div class="block-input">
+        <div class="my">Образование, курсы и т.д.</div>
 
-<br>
-            <table style="background-color: #f9f9fb;">
+        <br>
+            <table style="background-color: #f9f9fb; width: 100%;">
                     <tr>
-                    <th> #</th>
+                    <th style="width: 15px;"> #</th>
                     <th> Сроки обученя</th>
                     <th> Наименование учебного заведения, курсов</th>
                     </tr>
                     <tr>
-                    <td>1</td>
+                    <td style="width: 15px;">1</td>
                     <td>2 месяца</td>
                     <td>levelp</td>
                     </tr>
                     <tr>
-                    <td>2</td>
+                    <td style="width: 15px;">2</td>
                     <td>1 год</td>
                     <td>СПГУ</td>
                     </tr>
-                </table>
-
+             </table>
+             <br><br>
+             <span class="button" style="width: 650px; height: 30px; align-self: auto;">Отправить форму</span>
+        </div>
+       
+    </div>
+    <br>
+    
+</section>             
+ </form>
 </body>
 </html>
