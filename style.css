@@ -10,6 +10,11 @@ table,td {
     height: 15px;
     padding: 5px;
     }
+
+table{
+    background-color: #f9f9fb; 
+    width: 100%;
+}    
     th{
         text-align: left;
         background-color:#e0e0e0;
@@ -114,6 +119,7 @@ li{
     background-color: white;
     padding: 5px;
     border-radius: 2px;
+    padding-right: 70px;
 }
 .button{
     margin-left: 10px;
@@ -150,3 +156,25 @@ select
       display: none;
 }
 
+.engl_lev{
+    display: inline; 
+    font-size: 12px;"
+}
+
+.button-foot{
+    width: 650px; 
+    height: 30px; 
+    align-self: auto; 
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px 15px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    background: #55acee;
+    box-shadow: 2px 3px 0 #3C93D5;
+    transition: .3s;
+    cursor: pointer;
+    text-align: center ;
+}
